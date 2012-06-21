@@ -1,0 +1,3 @@
+[mediacore.plugin]
+seo = mediacore_seo
+

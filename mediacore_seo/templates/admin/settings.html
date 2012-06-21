@@ -1,0 +1,54 @@
+<!--! This file is a part of MediaCoreSEO, Copyright 2010 Simple Station Inc.
+
+	MediaCore is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	MediaCore is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:py="http://genshi.edgewall.org/"
+      xmlns:i18n="http://genshi.edgewall.org/i18n"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      i18n:domain="mediacore_seo">
+<xi:include href="/admin/settings/master.html" />
+<head>
+	<title>Search Engine Optimization</title>
+	<link href="${h.url_for('/admin/styles/forms.css')}" media="screen" rel="stylesheet" type="text/css" />
+	<style type="text/css">
+		#settings-form .details_fieldset .fieldlabel {
+			width: 135px;
+		}
+		#settings-form .textfield,
+		#settings-form .passwordfield,
+		#settings-form .textarea,
+		#settings-form .checkbox,
+		#settings-form .xhtmltextarea {
+			width:437px;
+		}
+		.details_fieldset .fieldhelp {
+			width: auto;
+			margin-left: 145px;
+			font-size: 85%;
+			font-style: italic;
+		}
+	</style>
+</head>
+<body class="menu-settings-on menu-settings-display-on">
+	<div class="box">
+		<div class="box-head">
+			<h1>Search Engine Optimization</h1>
+		</div>
+		${XML(form(form_values, action=form_action))}
+	</div>
+</body>
+</html>
