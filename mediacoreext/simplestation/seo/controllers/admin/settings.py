@@ -17,7 +17,7 @@ from mediacore.lib.base import BaseSettingsController
 from mediacore.lib.decorators import autocommit, expose, validate
 from mediacore.lib.helpers import url_for
 
-from mediacore_seo.forms.admin.settings import SEOSettingsForm
+from mediacoreext.simplestation.seo.forms.admin.settings import SEOSettingsForm
 
 seo_settings_form = SEOSettingsForm()
 

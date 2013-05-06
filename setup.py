@@ -18,17 +18,22 @@ from setuptools import setup, find_packages
 setup(
     name = 'MediaCore-SEO',
     version = '0.9.0b1',
-    packages = find_packages(),
     author = 'Simple Station Inc.',
     author_email = 'info@simplestation.com',
     description = 'A MediaCore plugin for SEO optimization through page Metadata.',
+    
+    packages=find_packages(),
+    namespace_packages = ['mediacoreext'],
+    include_package_data=True,    
+    zip_safe = False,
+
     install_requires = [
         'MediaCore >= 0.9.0b1',
     ],
     entry_points = {
-        'mediacore.plugin': ['seo = mediacore_seo'],
+        'mediacore.plugin': ['seo = mediacoreext.simplestation.seo.mediacore_plugin'],
     },
-    message_extractors = {'mediacore_seo': [
+    message_extractors = {'mediacoreext/simplestation/seo': [
         ('**.py', 'python', None),
         ('templates/**.html', 'genshi', {'template_class': 'genshi.template.markup:MarkupTemplate'}),
         ('public/**', 'ignore', None),

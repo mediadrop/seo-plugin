@@ -7,8 +7,8 @@
 include LICENSE.txt
 
 # Include all files in these directories
-graft mediacore_seo/templates
-graft mediacore_seo/i18n
+graft mediacoreext/simplestation/seo/templates
+graft mediacoreext/simplestation/seo/i18n
 
 # Always ignore scrap files
 recursive-exclude * *.pyc
