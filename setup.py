@@ -17,7 +17,7 @@ from setuptools import setup, find_packages
 
 setup(
     name = 'MediaCore-SEO',
-    version = '0.9.0b1',
+    version = '0.10dev',
     author = 'Simple Station Inc.',
     author_email = 'info@simplestation.com',
     description = 'A MediaCore plugin for SEO optimization through page Metadata.',
