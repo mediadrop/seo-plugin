@@ -1,0 +1,7 @@
+[main]
+host = https://www.transifex.com
+
+[mediacore.mediacore_seo]
+file_filter = mediacoreext/simplestation/seo/i18n/<lang>/LC_MESSAGES/mediacore_seo.po
+source_lang = en
+source_file = mediacoreext/simplestation/seo/i18n/mediacore_seo.pot
