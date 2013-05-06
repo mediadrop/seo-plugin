@@ -1,0 +1,112 @@
+# Arabic translations for MediaCoreSEO.
+# Copyright (C) 2011 ORGANIZATION
+# This file is distributed under the same license as the MediaCoreSEO
+# project.
+#
+# Translators:
+# sef <sef4sef@gmail.com>, 2011
+msgid ""
+msgstr ""
+"Project-Id-Version: MediaCore Video Platform\n"
+"Report-Msgid-Bugs-To: http://github.com/mediacore/mediacore-"
+"community/issues\n"
+"POT-Creation-Date: 2013-05-06 12:07+0200\n"
+"PO-Revision-Date: 2011-03-22 15:40+0000\n"
+"Last-Translator: sef <sef4sef@gmail.com>\n"
+"Language-Team: ar <LL@li.org>\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : "
+"n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 0.9.6\n"
+
+#: mediacoreext/simplestation/seo/mediacore_plugin.py:47
+#: mediacoreext/simplestation/seo/templates/admin/settings.html:17
+#: mediacoreext/simplestation/seo/templates/admin/settings.html:41
+msgid "Search Engine Optimization"
+msgstr "تحسين محرك البحث"
+
+#: mediacoreext/simplestation/seo/mediacore_plugin.py:76
+msgid "Media Specifc SEO"
+msgstr "تحسين محرك البحث فيما يتعلق بالمرئيات والسمعيات"
+
+#: mediacoreext/simplestation/seo/mediacore_plugin.py:79
+#: mediacoreext/simplestation/seo/forms/admin/settings.py:36
+#: mediacoreext/simplestation/seo/forms/admin/settings.py:51
+#: mediacoreext/simplestation/seo/forms/admin/settings.py:66
+#: mediacoreext/simplestation/seo/forms/admin/settings.py:81
+msgid "Page Title"
+msgstr "عنوان الموقع"
+
+#: mediacoreext/simplestation/seo/mediacore_plugin.py:80
+#: mediacoreext/simplestation/seo/forms/admin/settings.py:39
+#: mediacoreext/simplestation/seo/forms/admin/settings.py:54
+#: mediacoreext/simplestation/seo/forms/admin/settings.py:69
+#: mediacoreext/simplestation/seo/forms/admin/settings.py:84
+msgid "Meta Description"
+msgstr "وصف التعريفات - الميتا"
+
+#: mediacoreext/simplestation/seo/mediacore_plugin.py:81
+#: mediacoreext/simplestation/seo/forms/admin/settings.py:42
+#: mediacoreext/simplestation/seo/forms/admin/settings.py:57
+#: mediacoreext/simplestation/seo/forms/admin/settings.py:72
+#: mediacoreext/simplestation/seo/forms/admin/settings.py:87
+msgid "Meta Keywords"
+msgstr "الكلمات المفتاحية للتعريفات"
+
+#: mediacoreext/simplestation/seo/forms/admin/settings.py:20
+msgid "General"
+msgstr "عامّ"
+
+#: mediacoreext/simplestation/seo/forms/admin/settings.py:24
+msgid "Site Meta Description"
+msgstr "وصف تعريفات الصفحة"
+
+#: mediacoreext/simplestation/seo/forms/admin/settings.py:27
+msgid "Site Meta Keywords"
+msgstr "الكلمات المفتاحية لتعريفات الصفحة"
+
+#: mediacoreext/simplestation/seo/forms/admin/settings.py:28
+msgid "Comma Separated)"
+msgstr "الفصل بالفصلة)"
+
+#: mediacoreext/simplestation/seo/forms/admin/settings.py:32
+msgid "Explore Page"
+msgstr "استعراض الموقع"
+
+#: mediacoreext/simplestation/seo/forms/admin/settings.py:43
+#: mediacoreext/simplestation/seo/forms/admin/settings.py:58
+#: mediacoreext/simplestation/seo/forms/admin/settings.py:73
+#: mediacoreext/simplestation/seo/forms/admin/settings.py:88
+msgid "(Comma Separated)"
+msgstr "(مفصول بالفصلة)"
+
+#: mediacoreext/simplestation/seo/forms/admin/settings.py:47
+msgid "Podcast Page"
+msgstr "صفحة البودكاست"
+
+#: mediacoreext/simplestation/seo/forms/admin/settings.py:62
+msgid "Category Page"
+msgstr "صفحة الفئات"
+
+#: mediacoreext/simplestation/seo/forms/admin/settings.py:77
+msgid "Upload Page"
+msgstr "صفحة رفع الملفات"
+
+#: mediacoreext/simplestation/seo/forms/admin/settings.py:92
+msgid "Options"
+msgstr "خيارات"
+
+#: mediacoreext/simplestation/seo/forms/admin/settings.py:96
+msgid "Enable NOINDEX for Categories"
+msgstr "منع فهرسة الفئات"
+
+#: mediacoreext/simplestation/seo/forms/admin/settings.py:100
+msgid "Enable NOINDEX for RSS"
+msgstr "منع فهرسة آر إس إس"
+
+#: mediacoreext/simplestation/seo/forms/admin/settings.py:109
+msgid "Save"
+msgstr "حفظ"
+

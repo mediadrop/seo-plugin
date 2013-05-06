@@ -1,0 +1,111 @@
+# Spanish (Argentina) translations for MediaCoreSEO.
+# Copyright (C) 2011 ORGANIZATION
+# This file is distributed under the same license as the MediaCoreSEO
+# project.
+#
+# Translators:
+# Jan-Erik Finlander <jefinlander@gmail.com>, 2011
+msgid ""
+msgstr ""
+"Project-Id-Version: MediaCore Video Platform\n"
+"Report-Msgid-Bugs-To: http://github.com/mediacore/mediacore-"
+"community/issues\n"
+"POT-Creation-Date: 2013-05-06 12:07+0200\n"
+"PO-Revision-Date: 2011-06-02 08:16+0000\n"
+"Last-Translator: Jan-Erik Finlander <janerik.finlander@gmail.com>\n"
+"Language-Team: es_AR <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 0.9.6\n"
+
+#: mediacoreext/simplestation/seo/mediacore_plugin.py:47
+#: mediacoreext/simplestation/seo/templates/admin/settings.html:17
+#: mediacoreext/simplestation/seo/templates/admin/settings.html:41
+msgid "Search Engine Optimization"
+msgstr "Optimización de Motores de Búsqueda"
+
+#: mediacoreext/simplestation/seo/mediacore_plugin.py:76
+msgid "Media Specifc SEO"
+msgstr "SEO especifco de medios "
+
+#: mediacoreext/simplestation/seo/mediacore_plugin.py:79
+#: mediacoreext/simplestation/seo/forms/admin/settings.py:36
+#: mediacoreext/simplestation/seo/forms/admin/settings.py:51
+#: mediacoreext/simplestation/seo/forms/admin/settings.py:66
+#: mediacoreext/simplestation/seo/forms/admin/settings.py:81
+msgid "Page Title"
+msgstr "Título de la página"
+
+#: mediacoreext/simplestation/seo/mediacore_plugin.py:80
+#: mediacoreext/simplestation/seo/forms/admin/settings.py:39
+#: mediacoreext/simplestation/seo/forms/admin/settings.py:54
+#: mediacoreext/simplestation/seo/forms/admin/settings.py:69
+#: mediacoreext/simplestation/seo/forms/admin/settings.py:84
+msgid "Meta Description"
+msgstr "Meta descripción"
+
+#: mediacoreext/simplestation/seo/mediacore_plugin.py:81
+#: mediacoreext/simplestation/seo/forms/admin/settings.py:42
+#: mediacoreext/simplestation/seo/forms/admin/settings.py:57
+#: mediacoreext/simplestation/seo/forms/admin/settings.py:72
+#: mediacoreext/simplestation/seo/forms/admin/settings.py:87
+msgid "Meta Keywords"
+msgstr "Meta claves"
+
+#: mediacoreext/simplestation/seo/forms/admin/settings.py:20
+msgid "General"
+msgstr "General"
+
+#: mediacoreext/simplestation/seo/forms/admin/settings.py:24
+msgid "Site Meta Description"
+msgstr "Meta descripción del sitio "
+
+#: mediacoreext/simplestation/seo/forms/admin/settings.py:27
+msgid "Site Meta Keywords"
+msgstr "Meta claves Sitio "
+
+#: mediacoreext/simplestation/seo/forms/admin/settings.py:28
+msgid "Comma Separated)"
+msgstr "Separado por comas)"
+
+#: mediacoreext/simplestation/seo/forms/admin/settings.py:32
+msgid "Explore Page"
+msgstr "Explorar la página"
+
+#: mediacoreext/simplestation/seo/forms/admin/settings.py:43
+#: mediacoreext/simplestation/seo/forms/admin/settings.py:58
+#: mediacoreext/simplestation/seo/forms/admin/settings.py:73
+#: mediacoreext/simplestation/seo/forms/admin/settings.py:88
+msgid "(Comma Separated)"
+msgstr "(Separado por comas)"
+
+#: mediacoreext/simplestation/seo/forms/admin/settings.py:47
+msgid "Podcast Page"
+msgstr "Página Podcast "
+
+#: mediacoreext/simplestation/seo/forms/admin/settings.py:62
+msgid "Category Page"
+msgstr "Página de categoría "
+
+#: mediacoreext/simplestation/seo/forms/admin/settings.py:77
+msgid "Upload Page"
+msgstr "Subir página"
+
+#: mediacoreext/simplestation/seo/forms/admin/settings.py:92
+msgid "Options"
+msgstr "Opciones"
+
+#: mediacoreext/simplestation/seo/forms/admin/settings.py:96
+msgid "Enable NOINDEX for Categories"
+msgstr "Activar NOINDEX para las categorías"
+
+#: mediacoreext/simplestation/seo/forms/admin/settings.py:100
+msgid "Enable NOINDEX for RSS"
+msgstr "Activar NOINDEX para RSS"
+
+#: mediacoreext/simplestation/seo/forms/admin/settings.py:109
+msgid "Save"
+msgstr "Salvar"
+
