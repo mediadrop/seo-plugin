@@ -13,12 +13,11 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-from tw.forms import CheckBox, HiddenField, SingleSelectField
-from tw.forms.validators import Bool, NotEmpty
+from tw.forms import CheckBox, HiddenField
+from tw.forms.validators import Bool
 
 from mediacore.forms import ListFieldSet, ListForm, SubmitButton, TextField
 from mediacore.lib.i18n import N_
-from mediacore.model.meta import DBSession
 
 class SEOSettingsForm(ListForm):
     template = 'admin/box-form.html'

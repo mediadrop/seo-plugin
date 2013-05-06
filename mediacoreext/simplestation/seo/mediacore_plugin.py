@@ -20,7 +20,7 @@ from mediacore.lib.helpers import url_for
 from mediacore.lib.i18n import N_, _
 from mediacore.model import Media
 from mediacore.model.meta import DBSession
-from mediacore.model.settings import insert_settings, Setting
+from mediacore.model.settings import insert_settings
 from mediacore.plugin import events
 from mediacore.plugin.events import observes
 
