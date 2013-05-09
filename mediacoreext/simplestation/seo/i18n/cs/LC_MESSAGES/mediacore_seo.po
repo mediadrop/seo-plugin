@@ -1,20 +1,20 @@
-# Turkish (Turkey) translations for MediaCoreSEO.
+# Czech translations for MediaCoreSEO.
 # Copyright (C) 2011 ORGANIZATION
 # This file is distributed under the same license as the MediaCoreSEO
 # project.
 #
 # Translators:
-# Caner Başaran <basaran.caner@gmail.com>, 2012-2013
+# jui <appukonrad@gmail.com>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: MediaCore Video Platform\n"
 "Report-Msgid-Bugs-To: http://github.com/mediacore/mediacore-"
 "community/issues\n"
 "POT-Creation-Date: 2013-05-06 12:07+0200\n"
-"PO-Revision-Date: 2013-04-09 14:20+0000\n"
-"Last-Translator: Caner Başaran <basaran.caner@gmail.com>\n"
-"Language-Team: tr_TR <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0\n"
+"PO-Revision-Date: 2012-08-30 10:05+0000\n"
+"Last-Translator: jui <appukonrad@gmail.com>\n"
+"Language-Team: cs <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -24,11 +24,11 @@ msgstr ""
 #: mediacoreext/simplestation/seo/templates/admin/settings.html:17
 #: mediacoreext/simplestation/seo/templates/admin/settings.html:41
 msgid "Search Engine Optimization"
-msgstr "Arama Motoru Optimizasyonu"
+msgstr "Optimalizace pro vyhledávače"
 
 #: mediacoreext/simplestation/seo/mediacore_plugin.py:76
 msgid "Media Specifc SEO"
-msgstr "Medyaya Özel SEO"
+msgstr "Specifické SEO medií"
 
 #: mediacoreext/simplestation/seo/mediacore_plugin.py:79
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:36
@@ -36,7 +36,7 @@ msgstr "Medyaya Özel SEO"
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:66
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:81
 msgid "Page Title"
-msgstr "Sayfa Başlığı"
+msgstr "Název stránky"
 
 #: mediacoreext/simplestation/seo/mediacore_plugin.py:80
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:39
@@ -44,7 +44,7 @@ msgstr "Sayfa Başlığı"
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:69
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:84
 msgid "Meta Description"
-msgstr "Meta Açıklama"
+msgstr "Meta popis"
 
 #: mediacoreext/simplestation/seo/mediacore_plugin.py:81
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:42
@@ -52,60 +52,60 @@ msgstr "Meta Açıklama"
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:72
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:87
 msgid "Meta Keywords"
-msgstr "Meta Anahtar Kelimeler"
+msgstr "Meta klíčová slova"
 
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:20
 msgid "General"
-msgstr "Genel"
+msgstr "Obecné"
 
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:24
 msgid "Site Meta Description"
-msgstr "Site Meta Açıklaması"
+msgstr "Meta popis stránky"
 
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:27
 msgid "Site Meta Keywords"
-msgstr "Site Meta Anahtar Kelimeler"
+msgstr "Meta klíčová slova stránky"
 
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:28
 msgid "Comma Separated)"
-msgstr "Virgülle Ayrılmış)"
+msgstr "Oddělené čárkami)"
 
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:32
 msgid "Explore Page"
-msgstr "Sayfayı Keşfet"
+msgstr "Prozkoumat stránku"
 
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:43
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:58
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:73
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:88
 msgid "(Comma Separated)"
-msgstr "(Virgülle Ayrılmış)"
+msgstr "(Oddělené čárkami)"
 
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:47
 msgid "Podcast Page"
-msgstr "Podcast Sayfası"
+msgstr "Stránka podkastu"
 
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:62
 msgid "Category Page"
-msgstr "Kategori Sayfası"
+msgstr "Stránaka kategorií"
 
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:77
 msgid "Upload Page"
-msgstr "Yükleme Sayfası"
+msgstr "Stránka nahrávání"
 
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:92
 msgid "Options"
-msgstr "Seçenekler"
+msgstr "Nastavení"
 
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:96
 msgid "Enable NOINDEX for Categories"
-msgstr "Kotegoriler için NOINDEX etkinleştir"
+msgstr "Povolení NOINDEX pro kategorie"
 
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:100
 msgid "Enable NOINDEX for RSS"
-msgstr "RSS için NOINDEX etkinleştir"
+msgstr "Povolení NOINDEX pro RSS"
 
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:109
 msgid "Save"
-msgstr "Kaydet"
+msgstr "Uložit"
 

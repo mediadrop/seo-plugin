@@ -1,20 +1,20 @@
-# Finnish (Finland) translations for MediaCoreSEO.
+# Slovak translations for MediaCoreSEO.
 # Copyright (C) 2011 ORGANIZATION
 # This file is distributed under the same license as the MediaCoreSEO
 # project.
 #
 # Translators:
-# Jan-Erik Finlander <jefinlander@gmail.com>, 2011
+# jarjav <jarjav@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: MediaCore Video Platform\n"
 "Report-Msgid-Bugs-To: http://github.com/mediacore/mediacore-"
 "community/issues\n"
 "POT-Creation-Date: 2013-05-06 12:07+0200\n"
-"PO-Revision-Date: 2011-06-02 07:06+0000\n"
-"Last-Translator: Jan-Erik Finlander <janerik.finlander@gmail.com>\n"
-"Language-Team: fi_FI <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"PO-Revision-Date: 2013-04-05 20:43+0000\n"
+"Last-Translator: jarjav <jarjav@gmail.com>\n"
+"Language-Team: sk <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -24,11 +24,11 @@ msgstr ""
 #: mediacoreext/simplestation/seo/templates/admin/settings.html:17
 #: mediacoreext/simplestation/seo/templates/admin/settings.html:41
 msgid "Search Engine Optimization"
-msgstr "Hakukoneoptimointi"
+msgstr "Optimalizácia pre vyhľadávače"
 
 #: mediacoreext/simplestation/seo/mediacore_plugin.py:76
 msgid "Media Specifc SEO"
-msgstr "Media SEO:n ominaisuudet"
+msgstr "SEO špecifické pre médiá"
 
 #: mediacoreext/simplestation/seo/mediacore_plugin.py:79
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:36
@@ -36,7 +36,7 @@ msgstr "Media SEO:n ominaisuudet"
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:66
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:81
 msgid "Page Title"
-msgstr "Sivun otsikko"
+msgstr "Názov stránky"
 
 #: mediacoreext/simplestation/seo/mediacore_plugin.py:80
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:39
@@ -44,7 +44,7 @@ msgstr "Sivun otsikko"
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:69
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:84
 msgid "Meta Description"
-msgstr "Meta kuvaus"
+msgstr "Meta popis"
 
 #: mediacoreext/simplestation/seo/mediacore_plugin.py:81
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:42
@@ -52,60 +52,60 @@ msgstr "Meta kuvaus"
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:72
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:87
 msgid "Meta Keywords"
-msgstr "Meta avainsanat"
+msgstr "Meta kľúčové slová"
 
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:20
 msgid "General"
-msgstr "Yleinen"
+msgstr "Všeobecné"
 
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:24
 msgid "Site Meta Description"
-msgstr "Sivusto meta kuvaus"
+msgstr "Meta popis stránky"
 
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:27
 msgid "Site Meta Keywords"
-msgstr "Sivuston meta avainsanat"
+msgstr "Meta kľúčové slová stránky"
 
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:28
 msgid "Comma Separated)"
-msgstr "Pilkulla erotettuna)"
+msgstr "Oddelené čiarkami)"
 
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:32
 msgid "Explore Page"
-msgstr "Tutustu sivu"
+msgstr "Preskúmať stránku"
 
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:43
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:58
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:73
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:88
 msgid "(Comma Separated)"
-msgstr "(Pilkulla erotettuna)"
+msgstr "(Oddelené čiarkami)"
 
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:47
 msgid "Podcast Page"
-msgstr "Podcast sivu"
+msgstr "Stránka podcastu"
 
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:62
 msgid "Category Page"
-msgstr "Luokka sivu"
+msgstr "Stránka kategórie"
 
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:77
 msgid "Upload Page"
-msgstr "Lataa sivu"
+msgstr "Nahrať stránku"
 
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:92
 msgid "Options"
-msgstr "Valinnat"
+msgstr "Možnosti"
 
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:96
 msgid "Enable NOINDEX for Categories"
-msgstr "Aktivoi NOINDEX luokat"
+msgstr "Povoliť NOINDEX pre kategórie"
 
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:100
 msgid "Enable NOINDEX for RSS"
-msgstr "Aktivoi NOINDEX RSS:lle"
+msgstr "Povoliť NOINDEX pre RSS"
 
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:109
 msgid "Save"
-msgstr "Tallenna"
+msgstr "Uložiť"
 

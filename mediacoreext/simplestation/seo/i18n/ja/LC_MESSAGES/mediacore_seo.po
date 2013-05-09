@@ -1,21 +1,20 @@
-# Ukrainian (Ukraine) translations for MediaCoreSEO.
+# Japanese translations for MediaCoreSEO.
 # Copyright (C) 2011 ORGANIZATION
 # This file is distributed under the same license as the MediaCoreSEO
 # project.
 #
 # Translators:
-# romanstorozhuk <roman.storozhuk@gmail.com>, 2012
+# yorosiku <yorosiku@goo.jp>, 2011
 msgid ""
 msgstr ""
 "Project-Id-Version: MediaCore Video Platform\n"
 "Report-Msgid-Bugs-To: http://github.com/mediacore/mediacore-"
 "community/issues\n"
 "POT-Creation-Date: 2013-05-06 12:07+0200\n"
-"PO-Revision-Date: 2012-03-28 11:45+0000\n"
-"Last-Translator: romanstorozhuk <roman.storozhuk@gmail.com>\n"
-"Language-Team: uk_UA <LL@li.org>\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"PO-Revision-Date: 2011-08-14 02:03+0000\n"
+"Last-Translator: yorosiku <yorosiku@goo.jp>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -25,11 +24,11 @@ msgstr ""
 #: mediacoreext/simplestation/seo/templates/admin/settings.html:17
 #: mediacoreext/simplestation/seo/templates/admin/settings.html:41
 msgid "Search Engine Optimization"
-msgstr "Пошукова оптимізація"
+msgstr "検索エンジン最適化"
 
 #: mediacoreext/simplestation/seo/mediacore_plugin.py:76
 msgid "Media Specifc SEO"
-msgstr "Медіа специфіка пошукової оптимізації"
+msgstr "Media Specifc SEO"
 
 #: mediacoreext/simplestation/seo/mediacore_plugin.py:79
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:36
@@ -37,7 +36,7 @@ msgstr "Медіа специфіка пошукової оптимізації"
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:66
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:81
 msgid "Page Title"
-msgstr "Заголовок сторінки"
+msgstr "ページのタイトル"
 
 #: mediacoreext/simplestation/seo/mediacore_plugin.py:80
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:39
@@ -45,7 +44,7 @@ msgstr "Заголовок сторінки"
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:69
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:84
 msgid "Meta Description"
-msgstr "Мета-опис"
+msgstr "Meta Description"
 
 #: mediacoreext/simplestation/seo/mediacore_plugin.py:81
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:42
@@ -53,60 +52,60 @@ msgstr "Мета-опис"
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:72
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:87
 msgid "Meta Keywords"
-msgstr "Ключові мета-слова"
+msgstr "Meta Keywords"
 
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:20
 msgid "General"
-msgstr "Загальне"
+msgstr "一般設定"
 
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:24
 msgid "Site Meta Description"
-msgstr "Мета-опис сайту"
+msgstr "ホームの説明文"
 
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:27
 msgid "Site Meta Keywords"
-msgstr "Ключові мета-слова сайту"
+msgstr "ホームのキーワード"
 
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:28
 msgid "Comma Separated)"
-msgstr "розділені комами)"
+msgstr "カンマ区切り)"
 
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:32
 msgid "Explore Page"
-msgstr "Сторінка \"Огляд\""
+msgstr "Explore Page"
 
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:43
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:58
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:73
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:88
 msgid "(Comma Separated)"
-msgstr "(розділені комами)"
+msgstr "(カンマ区切り)"
 
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:47
 msgid "Podcast Page"
-msgstr "Сторінка \"Подкасти\""
+msgstr "共有ページ"
 
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:62
 msgid "Category Page"
-msgstr "Сторінка \"Категорії\""
+msgstr "カテゴリページ"
 
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:77
 msgid "Upload Page"
-msgstr "Сторінка \"Вивантаження\""
+msgstr "ページを保存"
 
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:92
 msgid "Options"
-msgstr "Параметри"
+msgstr "オプション"
 
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:96
 msgid "Enable NOINDEX for Categories"
-msgstr "Увімкнути NOINDEX для Категорій"
+msgstr "カテゴリのNOINDEXを有効にする"
 
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:100
 msgid "Enable NOINDEX for RSS"
-msgstr "Увімкнути NOINDEX для RSS"
+msgstr "RSSのNOINDEXを有効にする"
 
 #: mediacoreext/simplestation/seo/forms/admin/settings.py:109
 msgid "Save"
-msgstr "Зберегти"
+msgstr "保存"
 
