@@ -9,7 +9,7 @@ from setuptools import setup, find_packages
 
 setup(
     name = 'MediaCore-SEO',
-    version = '0.10',
+    version = '0.10.1',
     author = 'Simple Station Inc.',
     author_email = 'info@simplestation.com',
     description = 'A MediaCore plugin for SEO optimization through page Metadata.',
