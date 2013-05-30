@@ -12,28 +12,9 @@ from mediacore.lib.helpers import url_for
 from mediacore.lib.i18n import N_, _
 from mediacore.model import Media
 from mediacore.model.meta import DBSession
-from mediacore.model.settings import insert_settings
 from mediacore.plugin import events
 from mediacore.plugin.events import observes
 
-SEO_SETTINGS = [
-    u'seo_general_meta_description',
-    u'seo_general_meta_keywords',
-    u'seo_explore_page_title',
-    u'seo_explore_meta_description',
-    u'seo_explore_meta_keywords',
-    u'seo_podcast_page_title',
-    u'seo_podcast_meta_description',
-    u'seo_podcast_meta_keywords',
-    u'seo_category_page_title',
-    u'seo_category_meta_description',
-    u'seo_category_meta_keywords',
-    u'seo_upload_page_title',
-    u'seo_upload_meta_description',
-    u'seo_upload_meta_keywords',
-    u'seo_options_noindex_categories',
-    u'seo_options_noindex_rss',
-]
 
 @observes(events.plugin_settings_links)
 def add_settings_link():
@@ -47,16 +28,6 @@ def add_settings_link():
     yield (_('Search Engine Optimization', domain='mediacore_seo'),
            url_for(controller='/seo/admin/settings'))
 
-@observes(events.Environment.init_model)
-def create_settings():
-    """Insert plugin settings into the DataBase.
-
-    By observing :attr:`mediacore.plugin.events.Environment.init_model`
-    we can insert any settings we need for our plugin at model
-    initialization time ensuring they will be available in the app.
-
-    """
-    insert_settings([(x, u'') for x in SEO_SETTINGS])
 
 @observes(events.Admin.MediaForm)
 def append_fields(form):
