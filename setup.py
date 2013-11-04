@@ -20,7 +20,10 @@ setup(
     zip_safe = False,
 
     install_requires = [
-        'MediaCore >= 0.11dev',
+        # even though MediaDrop is required we can not specify this here without
+        # breaking compatiblity to either MediaCore CE (due to setuptools'
+        # limitations)
+        # 'MediaCore >= 0.11dev',
     ],
     entry_points = {
         'mediacore.plugin': ['seo = mediacoreext.simplestation.seo.mediacore_plugin'],
